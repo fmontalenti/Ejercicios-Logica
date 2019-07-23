@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+
+    do {   
+        var HorasXMes = parseInt(prompt('ingrese la cantidad de horas trabajadas por mes'));
+        var valorHora = parseInt(prompt('ingrese el valor por hora'));
+        
+        var r = confirm('desea seguir ingresando empleados?');
+        var sueldoMensual = valorHora * HorasXMes;
+        document.write("Su sueldo mensual es" + sueldoMensual);
+
+    } while (r);
+</script>
+<body>
+    <p>
+            Se le solicita al empleado que ingrese la cantidad de horas trabajas en el mes y
+             el valor de la hora. Realice el algoritmo para calcular 
+            e informar el sueldo de cada empleado, mostrando sus datos en pantalla. 
+            Se desconoce la cantidad de empleados. Todos los valores deben ser validados.
+    </p>
+</body>
+</html>
