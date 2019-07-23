@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <script>
+            for (var i = 0; i < 15; i++) {
+                numero = parseInt(prompt('ingrese un numero'));
+
+                if (numero % 3 == 0 && numero % 5 == 0) {
+                    document.write('el numero ingresado es ' + numero + ' y es multiplo de 5 y de 3');
+                } else if (numero % 5 == 0) {
+                    document.write(' el numero ingresado es ' + numero + ' y es multiplo de 5' + '<br />');
+                } else if (numero % 3 == 0) {
+                    document.write(' el numero ingresado es ' + numero + ' y es multiplo de 3' + '<br />');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p>
+            Se le solicita al usuario que 15 números. Realice el algoritmo para informar si cada número es múltiplo de 3, múltiplo 5 o si es múltiplo de ambos.
+        </p>
+    </body>
+</html>
